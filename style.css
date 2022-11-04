@@ -1,0 +1,127 @@
+.container {
+    width: 600px ;
+    height: 600px ;
+    background-color: #FFCCFF;
+    margin: 10vh auto 10vh;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+/* face */
+.face {
+    width: 300px; 
+    height: 300px; 
+    background-color:#FFE5CC;
+    border: 2px solid black; 
+    border-radius: 50%;
+    margin: 100px auto 200px;  
+ }
+ /*eye1*/
+ .eye1 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #FFE5CC;
+    border-radius: 50%;
+    box-shadow: inset 1px 5px #A6A6A6,
+    inset -1px -1px #A6A6A6;
+    margin-top: 80px;
+    margin-left: 60px;
+    display: inline-block;
+    overflow: hidden;
+ }
+ /*göz içi 1*/
+ .inner_eye_1 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #80461b;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 20px;
+ }
+ /*eye2*/
+ .eye2 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #FFE5CC;
+    border-radius: 50%;
+    box-shadow: inset 1px 5px #A6A6A6,
+    inset -1px -1px #A6A6A6;
+    margin-top: 80px;
+    margin-left: 100px;
+    display: inline-block;
+    overflow: hidden;
+ }
+ /*göz içi 2*/
+ .inner_eye_2 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #80461b;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 20px;
+ }
+ /*burun*/
+ .nouse {
+    border-color: transparent transparent #A6A6A6 transparent;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 45px 80px 45px;
+    border-radius: 0 0 40px 40px;
+    position: relative;
+    margin: auto;
+ }
+ /*ağız*/
+ .mouth_top {
+   width: 122px;
+   height: 20px;
+   background-color: #FFE5CC;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   position: absolute ;
+   margin: 13px 88px ;
+}
+.mouth {
+   width: 120px;
+   height: 20px;
+   background-color: #A6A6A6;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   position: absolute ;
+   margin: 20px 90px;
+}
+ /*kravat*/
+ .tie {
+    width: 100px;
+    height: 30px;
+    border: 0.5px;
+    border-style: solid;
+    position: absolute;
+    margin-top: 236px;
+ }
+ .tie_top{
+    border-color: transparent transparent #80461b transparent;
+    border-style: solid;
+    border-width: 0px 45px 16px 45px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin-left: 5px;  
+ }
+ .tie_under{
+    border-color:  #80461b transparent transparent transparent;
+    border-style: solid;
+    border-width: 15px 45px 0px 45px;
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 15px;
+    margin-left: 5px;  
+ }
